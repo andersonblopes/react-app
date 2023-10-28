@@ -1,4 +1,5 @@
 import ListGroup from "./components/ListGroup.tsx";
+import Alert from "./components/Alert.tsx";
 
 function App() {
     const items = [
@@ -12,7 +13,9 @@ function App() {
         console.log(item);
     }
 
-    return <div><ListGroup items={items} header={"Cities"} onSelectItem={handleSelectItem}/></div>
+    return <div>
+        <Alert>Hello <b>world!</b></Alert>
+        <ListGroup items={items} header={"Cities"} onSelectItem={handleSelectItem}/></div>
 }
 
 export default App
