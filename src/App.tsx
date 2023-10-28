@@ -1,10 +1,7 @@
 import ListGroup from "./components/ListGroup.tsx";
-import Message from "./Message.tsx";
 
 function App() {
-    return <div><Message/>
-        <ListGroup/>
-    </div>
+    return <div><ListGroup/></div>
 }
 
 export default App
