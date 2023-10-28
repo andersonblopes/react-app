@@ -7,7 +7,12 @@ function App() {
         "São Paulo - SP",
         'Natal - RN'
     ]
-    return <div><ListGroup items={items} header={"Cities"}/></div>
+
+    const handleSelectItem = (item: string) => {
+        console.log(item);
+    }
+
+    return <div><ListGroup items={items} header={"Cities"} onSelectItem={handleSelectItem}/></div>
 }
 
 export default App
