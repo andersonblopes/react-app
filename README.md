@@ -1,6 +1,4 @@
 <h1 align="center">Welcome to react-app 👋</h1>
-<h2>Reviewing react sintaxe lib :react:</h2>
-<hr>
 <p>
   <a href="https://www.npmjs.com/package/first-app" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/first-app.svg">
