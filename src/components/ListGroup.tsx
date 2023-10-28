@@ -11,7 +11,7 @@ function ListGroup({items, header, onSelectItem}: ListGroupsProps) {
     const [selectedIndex, setSelectedIndex] = useState(-1)
     return (
         <>
-            <h1>{header}</h1>
+            <h1 className="mt-2">{header}</h1>
             {items.length === 0 && <p>No item found</p>}
             <ul className="list-group">
                 {items.map((item, index) => (

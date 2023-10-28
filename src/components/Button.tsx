@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button = ({children, color = 'primary', onClick}: ButtonProps) => {
     return <button
-        className={'btn btn-' + color}
+        className={'mt-2 btn btn-' + color}
         onClick={onClick}>
         {children}
     </button>
